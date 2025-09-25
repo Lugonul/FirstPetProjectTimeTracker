@@ -1,4 +1,6 @@
 package com.meshakin.dto;
 
-public class TimeTrackerDto {
-}
+public record TimeTrackerDto (
+        Long id,
+        Long time
+){}
