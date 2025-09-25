@@ -4,23 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="210c6232-7a1b-4429-b4f0-c3cc18845922" name="Changes" comment="Basic operations with database">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inin.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+    <list default="true" id="210c6232-7a1b-4429-b4f0-c3cc18845922" name="Changes" comment="transform to microservices">
+      <change afterPath="$PROJECT_DIR$/tracking-service/src/test/java/com/meshakin/TestContainersBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/analytics-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/meshakin/FirstPetProjectTimeTrackerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/meshakin/dto/TimeTrackerDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/meshakin/entity/TimeTrackerEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/meshakin/mapper/TimeTrackerMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/meshakin/repository/TimeTrackerRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/meshakin/service/TimeTrackerService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/meshakin/FirstPetProjectTimeTrackerEntityApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/src/test/java/com/meshakin/integration/TimeTrackerServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/src/test/java/com/meshakin/integration/TimeTrackerServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +73,7 @@
   "keyToString": {
     "Docker.docker-compose.yml.postgres: Compose Deployment.executor": "Run",
     "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
+    "JUnit.TimeTrackerServiceTest.executor": "Run",
     "Maven.common [install].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -120,7 +113,22 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.TrackingServiceApplication (1)">
+  <component name="RunManager" selected="JUnit.TimeTrackerServiceTest">
+    <configuration name="TimeTrackerServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tracking-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.meshakin.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.meshakin.integration" />
+      <option name="MAIN_CLASS_NAME" value="com.meshakin.integration.TimeTrackerServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AnalyticsServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="analytics-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.meshakin.analyticsservice.AnalyticsServiceApplication" />
@@ -205,6 +213,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TimeTrackerServiceTest" />
         <item itemvalue="Spring Boot.TrackingServiceApplication (1)" />
         <item itemvalue="Docker.docker-compose.yml.postgres: Compose Deployment" />
         <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
@@ -256,7 +265,10 @@
       <workItem from="1758838969951" duration="238000" />
       <workItem from="1758839218380" duration="98000" />
       <workItem from="1758839334518" duration="693000" />
-      <workItem from="1758840199651" duration="1166000" />
+      <workItem from="1758840199651" duration="1571000" />
+      <workItem from="1758841894231" duration="194000" />
+      <workItem from="1758842138268" duration="265000" />
+      <workItem from="1758842421630" duration="858000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <option name="closed" value="true" />
@@ -290,7 +302,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758755679087</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="transform to microservices">
+      <option name="closed" value="true" />
+      <created>1758841702604</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1758841702604</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,6 +342,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First" />
     <MESSAGE value="Basic operations with database" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic operations with database" />
+    <MESSAGE value="transform to microservices" />
+    <option name="LAST_COMMIT_MESSAGE" value="transform to microservices" />
   </component>
 </project>
