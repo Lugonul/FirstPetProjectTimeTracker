@@ -1,10 +1,8 @@
-package com.meshakin.integration;
+package com.meshakin.integration.service;
 
 import com.meshakin.TestContainersBase;
 import com.meshakin.dto.TimeTrackerDto;
 import com.meshakin.service.TimeTrackerService;
-import lombok.RequiredArgsConstructor;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

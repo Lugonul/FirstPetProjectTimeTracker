@@ -4,15 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="210c6232-7a1b-4429-b4f0-c3cc18845922" name="Changes" comment="transform to microservices">
-      <change afterPath="$PROJECT_DIR$/tracking-service/src/test/java/com/meshakin/TestContainersBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="210c6232-7a1b-4429-b4f0-c3cc18845922" name="Changes" comment="add basic tests">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/controller/ApplicationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/controller/ApplicationTypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/controller/DeviceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/dto/ApplicationDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/dto/ApplicationTypeDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/dto/DeviceDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/entity/ApplicationEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/entity/ApplicationTypeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/entity/DeviceEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/mapper/ApplicationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/mapper/ApplicationTypeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/mapper/DeviceMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/repository/ApplicationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/repository/ApplicationTypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/repository/DeviceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/service/ApplicationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/service/ApplicationTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/service/DeviceService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/analytics-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/src/test/java/com/meshakin/integration/TimeTrackerServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/src/test/java/com/meshakin/integration/TimeTrackerServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/init.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/dto/TimeTrackerDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/dto/TimeTrackerDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/entity/TimeTrackerEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/entity/TimeTrackerEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/mapper/TimeTrackerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/mapper/TimeTrackerMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/src/test/java/com/meshakin/integration/TimeTrackerServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/src/test/java/com/meshakin/integration/service/TimeTrackerServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +39,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -77,10 +95,11 @@
     "Maven.common [install].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
+    "RequestMappingsPanelWidth0": "714",
+    "RequestMappingsPanelWidth1": "714",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.FirstPetProjectTimeTrackerApplication.executor": "Run",
     "Spring Boot.TrackingServiceApplication (1).executor": "Run",
     "git-widget-placeholder": "transform-to-microservicies",
@@ -118,12 +137,12 @@
       <module name="tracking-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.meshakin.integration.*" />
+          <option name="PATTERN" value="com.meshakin.integration.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.meshakin.integration" />
-      <option name="MAIN_CLASS_NAME" value="com.meshakin.integration.TimeTrackerServiceTest" />
+      <option name="PACKAGE_NAME" value="com.meshakin.integration.service" />
+      <option name="MAIN_CLASS_NAME" value="com.meshakin.integration.service.TimeTrackerServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -143,27 +162,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="First" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meshakin.first.FirstApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstPetProjectTimeTrackerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="tracking-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meshakin.FirstPetProjectTimeTrackerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PetProject1TimeTrackerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="FirstPetProjectTimeTracker" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meshakin.petproject1timetracker.PetProject1TimeTrackerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TrackingServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="tracking-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.meshakin.TrackingServiceApplication" />
@@ -173,13 +171,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TrackingServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="tracking-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meshakin.trackingservice.TrackingServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -213,8 +204,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TimeTrackerServiceTest" />
         <item itemvalue="Spring Boot.TrackingServiceApplication (1)" />
+        <item itemvalue="JUnit.TimeTrackerServiceTest" />
         <item itemvalue="Docker.docker-compose.yml.postgres: Compose Deployment" />
         <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
       </list>
@@ -268,7 +259,12 @@
       <workItem from="1758840199651" duration="1571000" />
       <workItem from="1758841894231" duration="194000" />
       <workItem from="1758842138268" duration="265000" />
-      <workItem from="1758842421630" duration="858000" />
+      <workItem from="1758842421630" duration="6533000" />
+      <workItem from="1758902865608" duration="3872000" />
+      <workItem from="1758908302488" duration="251000" />
+      <workItem from="1758908648340" duration="36000" />
+      <workItem from="1758908711720" duration="201000" />
+      <workItem from="1758908939625" duration="1640000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <option name="closed" value="true" />
@@ -310,7 +306,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758841702604</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add basic tests">
+      <option name="closed" value="true" />
+      <created>1758843772510</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1758843772510</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,6 +347,7 @@
     <MESSAGE value="First" />
     <MESSAGE value="Basic operations with database" />
     <MESSAGE value="transform to microservices" />
-    <option name="LAST_COMMIT_MESSAGE" value="transform to microservices" />
+    <MESSAGE value="add basic tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="add basic tests" />
   </component>
 </project>

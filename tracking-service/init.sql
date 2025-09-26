@@ -1,1 +1,0 @@
-CREATE SCHEMA IF NOT EXISTS time_tracker_schema;

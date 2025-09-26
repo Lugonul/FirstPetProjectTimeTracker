@@ -9,26 +9,22 @@ import jakarta.persistence.ManyToOne;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
-import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
-
-import java.time.LocalDate;
-import java.time.LocalDateTime;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
 @Entity
-public class TimeTrackerEntity {
-
+public class ApplicationEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    private String applicationName;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    private ApplicationEntity application;
-    private LocalDateTime startTime;
-    private LocalDateTime endTime;
+    private DeviceEntity device;
 
+    @ManyToOne(fetch = FetchType.LAZY)
+    private ApplicationTypeEntity  applicationType;
 }
