@@ -18,22 +18,23 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
         </processorPath>
-        <module name="common" />
         <module name="analytics-service" />
+        <module name="common" />
+        <module name="tracking-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="First" target="21" />
-      <module name="tracking-service" target="21" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="First" options="-parameters" />
       <module name="FirstPetProjectTimeTracker" options="-parameters" />
-      <module name="analytics-service" options="" />
-      <module name="common" options="" />
-      <module name="tracking-service" options="" />
+      <module name="analytics-service" options="-parameters" />
+      <module name="common" options="-parameters" />
+      <module name="first-pet-project-time-tracker" options="-parameters" />
+      <module name="tracking-service" options="-parameters" />
     </option>
   </component>
 </project>
