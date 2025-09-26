@@ -4,16 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="210c6232-7a1b-4429-b4f0-c3cc18845922" name="Changes" comment="change and normalize the database">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/meshakin/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/meshakin/controller/TimeTrackerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/meshakin/integration/TimeTrackerServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/meshakin/dto/TimeTrackerDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meshakin/dto/TimeTrackerDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/meshakin/mapper/TimeTrackerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meshakin/mapper/TimeTrackerMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/meshakin/service/TimeTrackerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meshakin/service/TimeTrackerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/entity/DeviceEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/entity/DeviceEntity.java" afterDir="false" />
+    <list default="true" id="210c6232-7a1b-4429-b4f0-c3cc18845922" name="Changes" comment="solved conflicts">
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/meshakin/common/CommonApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/meshakin/common/CommonApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/TrackingServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/TrackingServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/config/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/controller/ApplicationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/controller/ApplicationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/controller/ApplicationTypeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/controller/ApplicationTypeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/controller/DeviceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/controller/DeviceController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/controller/TimeTrackerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/controller/TimeTrackerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/dto/ApplicationDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/dto/ApplicationDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/dto/ApplicationTypeDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/dto/ApplicationTypeDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/dto/DeviceDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/dto/DeviceDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/dto/TimeTrackerDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/dto/TimeTrackerDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/entity/ApplicationEntity$ApplicationEntityBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/entity/ApplicationEntity$ApplicationEntityBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/entity/ApplicationEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/entity/ApplicationEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/entity/ApplicationTypeEntity$ApplicationTypeEntityBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/entity/ApplicationTypeEntity$ApplicationTypeEntityBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/entity/ApplicationTypeEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/entity/ApplicationTypeEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/entity/DeviceEntity$DeviceEntityBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/entity/DeviceEntity$DeviceEntityBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/entity/DeviceEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/entity/DeviceEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/entity/TimeTrackerEntity$TimeTrackerEntityBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/entity/TimeTrackerEntity$TimeTrackerEntityBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/entity/TimeTrackerEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/entity/TimeTrackerEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/mapper/ApplicationMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/mapper/ApplicationMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/mapper/ApplicationMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/mapper/ApplicationMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/mapper/ApplicationTypeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/mapper/ApplicationTypeMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/mapper/ApplicationTypeMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/mapper/ApplicationTypeMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/mapper/DeviceMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/mapper/DeviceMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/mapper/DeviceMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/mapper/DeviceMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/mapper/TimeTrackerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/mapper/TimeTrackerMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/mapper/TimeTrackerMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/mapper/TimeTrackerMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/repository/ApplicationRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/repository/ApplicationRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/repository/ApplicationTypeRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/repository/ApplicationTypeRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/repository/DeviceRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/repository/DeviceRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/repository/TimeTrackerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/repository/TimeTrackerRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/service/ApplicationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/service/ApplicationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/service/ApplicationTypeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/service/ApplicationTypeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/service/DeviceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/service/DeviceService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/service/TimeTrackerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/service/TimeTrackerService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +112,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.FirstPetProjectTimeTrackerApplication.executor": "Run",
     "Spring Boot.TrackingServiceApplication (1).executor": "Run",
-    "git-widget-placeholder": "#2 on Merging transform-to-microservicies",
+    "git-widget-placeholder": "#2 on transform-to-microservicies",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/ADmin/IdeaProjects/FirstPetProjectTimeTracker",
     "node.js.detected.package.eslint": "true",
@@ -306,7 +332,23 @@
       <option name="project" value="LOCAL" />
       <updated>1758910881126</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fix: transport .gitignore, .gitattributes, maven-wrappers from modules to root">
+      <option name="closed" value="true" />
+      <created>1758920410606</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1758920410606</updated>
+    </task>
+    <task id="LOCAL-00009" summary="solved conflicts">
+      <option name="closed" value="true" />
+      <created>1758920481738</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1758920481738</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,6 +383,8 @@
     <MESSAGE value="transform to microservices" />
     <MESSAGE value="add basic tests" />
     <MESSAGE value="change and normalize the database" />
-    <option name="LAST_COMMIT_MESSAGE" value="change and normalize the database" />
+    <MESSAGE value="fix: transport .gitignore, .gitattributes, maven-wrappers from modules to root" />
+    <MESSAGE value="solved conflicts" />
+    <option name="LAST_COMMIT_MESSAGE" value="solved conflicts" />
   </component>
 </project>
