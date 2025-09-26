@@ -4,32 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="210c6232-7a1b-4429-b4f0-c3cc18845922" name="Changes" comment="add basic tests">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/controller/ApplicationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/controller/ApplicationTypeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/controller/DeviceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/dto/ApplicationDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/dto/ApplicationTypeDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/dto/DeviceDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/entity/ApplicationEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/entity/ApplicationTypeEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/entity/DeviceEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/mapper/ApplicationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/mapper/ApplicationTypeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/mapper/DeviceMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/repository/ApplicationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/repository/ApplicationTypeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/repository/DeviceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/service/ApplicationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/service/ApplicationTypeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/service/DeviceService.java" afterDir="false" />
+    <list default="true" id="210c6232-7a1b-4429-b4f0-c3cc18845922" name="Changes" comment="change and normalize the database">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/init.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/dto/TimeTrackerDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/dto/TimeTrackerDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/entity/TimeTrackerEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/entity/TimeTrackerEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/mapper/TimeTrackerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/mapper/TimeTrackerMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/src/test/java/com/meshakin/integration/TimeTrackerServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/src/test/java/com/meshakin/integration/service/TimeTrackerServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics-service/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/mvnw.cmd" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,8 +87,8 @@
     "Maven.common [install].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "714",
-    "RequestMappingsPanelWidth1": "714",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -264,7 +256,7 @@
       <workItem from="1758908302488" duration="251000" />
       <workItem from="1758908648340" duration="36000" />
       <workItem from="1758908711720" duration="201000" />
-      <workItem from="1758908939625" duration="1640000" />
+      <workItem from="1758908939625" duration="4799000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <option name="closed" value="true" />
@@ -314,7 +306,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758843772510</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="change and normalize the database">
+      <option name="closed" value="true" />
+      <created>1758910881126</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1758910881126</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,6 +348,7 @@
     <MESSAGE value="Basic operations with database" />
     <MESSAGE value="transform to microservices" />
     <MESSAGE value="add basic tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="add basic tests" />
+    <MESSAGE value="change and normalize the database" />
+    <option name="LAST_COMMIT_MESSAGE" value="change and normalize the database" />
   </component>
 </project>
