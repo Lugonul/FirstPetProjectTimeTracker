@@ -5,23 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="210c6232-7a1b-4429-b4f0-c3cc18845922" name="Changes" comment="change and normalize the database">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/mvnw.cmd" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/meshakin/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/meshakin/controller/TimeTrackerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/meshakin/integration/TimeTrackerServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/meshakin/dto/TimeTrackerDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meshakin/dto/TimeTrackerDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/meshakin/mapper/TimeTrackerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meshakin/mapper/TimeTrackerMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/meshakin/service/TimeTrackerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meshakin/service/TimeTrackerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/entity/DeviceEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/entity/DeviceEntity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +86,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.FirstPetProjectTimeTrackerApplication.executor": "Run",
     "Spring Boot.TrackingServiceApplication (1).executor": "Run",
-    "git-widget-placeholder": "transform-to-microservicies",
+    "git-widget-placeholder": "#2 on Merging transform-to-microservicies",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/ADmin/IdeaProjects/FirstPetProjectTimeTracker",
     "node.js.detected.package.eslint": "true",
