@@ -3,7 +3,7 @@
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.53">
     <root id="1">
       <DateStyle>mdy</DateStyle>
-      <IntrospectionStateNumber>821</IntrospectionStateNumber>
+      <IntrospectionStateNumber>783</IntrospectionStateNumber>
       <ServerVersion>17.6</ServerVersion>
       <StartupTime>1758753032</StartupTime>
       <TimeZones>true ACDT
@@ -248,7 +248,7 @@ false Antarctica/Davis
 false Antarctica/DumontDUrville
 false Antarctica/Macquarie
 false Antarctica/Mawson
-true Antarctica/McMurdo
+false Antarctica/McMurdo
 false Antarctica/Palmer
 false Antarctica/Rothera
 false Antarctica/Syowa
@@ -599,9 +599,9 @@ false PWT
 true PYST
 false PYT
 false Pacific/Apia
-true Pacific/Auckland
+false Pacific/Auckland
 false Pacific/Bougainville
-true Pacific/Chatham
+false Pacific/Chatham
 false Pacific/Chuuk
 true Pacific/Easter
 false Pacific/Efate
@@ -698,7 +698,7 @@ true posixrules
 13283||10|C|G
 13283||-9223372036854775808|U|G
 13283||10|U|G</Grants>
-      <IntrospectionStateNumber>821</IntrospectionStateNumber>
+      <IntrospectionStateNumber>783</IntrospectionStateNumber>
       <ObjectId>16384</ObjectId>
       <OwnerName>admin</OwnerName>
     </database>
@@ -714,7 +714,7 @@ true posixrules
 13283||10|C|G
 13283||-9223372036854775808|U|G
 13283||10|U|G</Grants>
-      <IntrospectionStateNumber>808</IntrospectionStateNumber>
+      <IntrospectionStateNumber>774</IntrospectionStateNumber>
       <ObjectId>5</ObjectId>
       <OwnerName>admin</OwnerName>
     </database>
@@ -4141,8 +4141,8 @@ true posixrules
       <OwnerName>pg_database_owner</OwnerName>
     </schema>
     <schema id="266" parent="2" name="time_tracker_schema">
-      <IntrospectionStateNumber>821</IntrospectionStateNumber>
-      <LastIntrospectionLocalTimestamp>2025-09-28.01:20:10</LastIntrospectionLocalTimestamp>
+      <IntrospectionStateNumber>783</IntrospectionStateNumber>
+      <LastIntrospectionLocalTimestamp>2025-09-26.17:50:30</LastIntrospectionLocalTimestamp>
       <ObjectId>16385</ObjectId>
       <StateNumber>740</StateNumber>
       <OwnerName>admin</OwnerName>
@@ -7498,149 +7498,11 @@ true posixrules
     <schema id="510" parent="3" name="public">
       <Comment>standard public schema</Comment>
       <Current>1</Current>
-      <IntrospectionStateNumber>808</IntrospectionStateNumber>
-      <LastIntrospectionLocalTimestamp>2025-09-28.01:07:17</LastIntrospectionLocalTimestamp>
+      <IntrospectionStateNumber>774</IntrospectionStateNumber>
+      <LastIntrospectionLocalTimestamp>2025-09-26.17:50:01</LastIntrospectionLocalTimestamp>
       <ObjectId>2200</ObjectId>
       <StateNumber>532</StateNumber>
       <OwnerName>pg_database_owner</OwnerName>
     </schema>
-    <sequence id="511" parent="266" name="application_entity_id_seq">
-      <ObjectId>16435</ObjectId>
-      <SequenceIdentity>1</SequenceIdentity>
-      <StartValue>1</StartValue>
-      <StateNumber>816</StateNumber>
-      <StoredType>bigint|0s</StoredType>
-      <OwnerName>admin</OwnerName>
-    </sequence>
-    <sequence id="512" parent="266" name="time_tracker_entity_id_seq">
-      <ObjectId>16444</ObjectId>
-      <SequenceIdentity>1</SequenceIdentity>
-      <StartValue>1</StartValue>
-      <StateNumber>817</StateNumber>
-      <StoredType>bigint|0s</StoredType>
-      <OwnerName>admin</OwnerName>
-    </sequence>
-    <table id="513" parent="266" name="application_entity">
-      <ObjectId>16436</ObjectId>
-      <StateNumber>818</StateNumber>
-      <AccessMethodId>2</AccessMethodId>
-      <OwnerName>admin</OwnerName>
-    </table>
-    <table id="514" parent="266" name="time_tracker_entity">
-      <ObjectId>16445</ObjectId>
-      <StateNumber>818</StateNumber>
-      <AccessMethodId>2</AccessMethodId>
-      <OwnerName>admin</OwnerName>
-    </table>
-    <check id="515" parent="513" name="application_entity_application_type_check">
-      <ColNames>application_type</ColNames>
-      <ObjectId>16439</ObjectId>
-      <Predicate>(application_type)::text = ANY ((ARRAY[&apos;BROWSER&apos;::character varying, &apos;APPLICATION&apos;::character varying])::text[])</Predicate>
-      <StateNumber>816</StateNumber>
-    </check>
-    <column id="516" parent="513" name="id">
-      <IdentityKind>by-default</IdentityKind>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-      <StateNumber>816</StateNumber>
-      <StoredType>bigint|0s</StoredType>
-      <SequenceId>16435</SequenceId>
-      <TypeId>20</TypeId>
-    </column>
-    <column id="517" parent="513" name="application_name">
-      <NotNull>1</NotNull>
-      <Position>2</Position>
-      <StateNumber>816</StateNumber>
-      <StoredType>varchar(255)|0s</StoredType>
-      <TypeId>1043</TypeId>
-    </column>
-    <column id="518" parent="513" name="application_type">
-      <NotNull>1</NotNull>
-      <Position>3</Position>
-      <StateNumber>816</StateNumber>
-      <StoredType>varchar(255)|0s</StoredType>
-      <TypeId>1043</TypeId>
-    </column>
-    <index id="519" parent="513" name="application_entity_pkey">
-      <ColNames>id</ColNames>
-      <NameSurrogate>1</NameSurrogate>
-      <ObjectId>16442</ObjectId>
-      <Primary>1</Primary>
-      <StateNumber>816</StateNumber>
-      <Unique>1</Unique>
-      <AccessMethodId>403</AccessMethodId>
-    </index>
-    <key id="520" parent="513" name="application_entity_pkey">
-      <NameSurrogate>1</NameSurrogate>
-      <ObjectId>16443</ObjectId>
-      <Primary>1</Primary>
-      <StateNumber>816</StateNumber>
-      <UnderlyingIndexId>16442</UnderlyingIndexId>
-    </key>
-    <check id="521" parent="514" name="time_tracker_entity_device_check">
-      <ColNames>device</ColNames>
-      <ObjectId>16448</ObjectId>
-      <Predicate>(device)::text = ANY ((ARRAY[&apos;COMPUTER&apos;::character varying, &apos;MOBILE&apos;::character varying])::text[])</Predicate>
-      <StateNumber>817</StateNumber>
-    </check>
-    <column id="522" parent="514" name="id">
-      <IdentityKind>by-default</IdentityKind>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-      <StateNumber>817</StateNumber>
-      <StoredType>bigint|0s</StoredType>
-      <SequenceId>16444</SequenceId>
-      <TypeId>20</TypeId>
-    </column>
-    <column id="523" parent="514" name="device">
-      <NotNull>1</NotNull>
-      <Position>2</Position>
-      <StateNumber>817</StateNumber>
-      <StoredType>varchar(255)|0s</StoredType>
-      <TypeId>1043</TypeId>
-    </column>
-    <column id="524" parent="514" name="end_time">
-      <NotNull>1</NotNull>
-      <Position>3</Position>
-      <StateNumber>817</StateNumber>
-      <StoredType>timestamp(6)|0s</StoredType>
-      <TypeId>1114</TypeId>
-    </column>
-    <column id="525" parent="514" name="start_time">
-      <NotNull>1</NotNull>
-      <Position>4</Position>
-      <StateNumber>817</StateNumber>
-      <StoredType>timestamp(6)|0s</StoredType>
-      <TypeId>1114</TypeId>
-    </column>
-    <column id="526" parent="514" name="application_id">
-      <Position>5</Position>
-      <StateNumber>817</StateNumber>
-      <StoredType>bigint|0s</StoredType>
-      <TypeId>20</TypeId>
-    </column>
-    <foreign-key id="527" parent="514" name="fk3aoffxpqcosfv9jxhqe1lexo5">
-      <ColNames>application_id</ColNames>
-      <ObjectId>16451</ObjectId>
-      <StateNumber>818</StateNumber>
-      <RefKeyColPositions>1</RefKeyColPositions>
-      <RefTableId>16436</RefTableId>
-    </foreign-key>
-    <index id="528" parent="514" name="time_tracker_entity_pkey">
-      <ColNames>id</ColNames>
-      <NameSurrogate>1</NameSurrogate>
-      <ObjectId>16449</ObjectId>
-      <Primary>1</Primary>
-      <StateNumber>817</StateNumber>
-      <Unique>1</Unique>
-      <AccessMethodId>403</AccessMethodId>
-    </index>
-    <key id="529" parent="514" name="time_tracker_entity_pkey">
-      <NameSurrogate>1</NameSurrogate>
-      <ObjectId>16450</ObjectId>
-      <Primary>1</Primary>
-      <StateNumber>817</StateNumber>
-      <UnderlyingIndexId>16449</UnderlyingIndexId>
-    </key>
   </database-model>
 </dataSource>
