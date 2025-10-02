@@ -4,42 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="210c6232-7a1b-4429-b4f0-c3cc18845922" name="Changes" comment="solved conflicts">
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/meshakin/common/CommonApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/meshakin/common/CommonApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/TrackingServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/TrackingServiceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/config/AppConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/controller/ApplicationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/controller/ApplicationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/controller/ApplicationTypeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/controller/ApplicationTypeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/controller/DeviceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/controller/DeviceController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/controller/TimeTrackerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/controller/TimeTrackerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/dto/ApplicationDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/dto/ApplicationDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/dto/ApplicationTypeDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/dto/ApplicationTypeDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/dto/DeviceDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/dto/DeviceDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/dto/TimeTrackerDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/dto/TimeTrackerDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/entity/ApplicationEntity$ApplicationEntityBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/entity/ApplicationEntity$ApplicationEntityBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/entity/ApplicationEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/entity/ApplicationEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/entity/ApplicationTypeEntity$ApplicationTypeEntityBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/entity/ApplicationTypeEntity$ApplicationTypeEntityBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/entity/ApplicationTypeEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/entity/ApplicationTypeEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/entity/DeviceEntity$DeviceEntityBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/entity/DeviceEntity$DeviceEntityBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/entity/DeviceEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/entity/DeviceEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/entity/TimeTrackerEntity$TimeTrackerEntityBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/entity/TimeTrackerEntity$TimeTrackerEntityBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/entity/TimeTrackerEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/entity/TimeTrackerEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/mapper/ApplicationMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/mapper/ApplicationMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/mapper/ApplicationMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/mapper/ApplicationMapperImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/mapper/ApplicationTypeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/mapper/ApplicationTypeMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/mapper/ApplicationTypeMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/mapper/ApplicationTypeMapperImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/mapper/DeviceMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/mapper/DeviceMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/mapper/DeviceMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/mapper/DeviceMapperImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/mapper/TimeTrackerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/mapper/TimeTrackerMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/mapper/TimeTrackerMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/mapper/TimeTrackerMapperImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/repository/ApplicationRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/repository/ApplicationRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/repository/ApplicationTypeRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/repository/ApplicationTypeRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/repository/DeviceRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/repository/DeviceRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/repository/TimeTrackerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/repository/TimeTrackerRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/service/ApplicationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/service/ApplicationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/service/ApplicationTypeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/service/ApplicationTypeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/service/DeviceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/service/DeviceService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/service/TimeTrackerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/classes/com/meshakin/service/TimeTrackerService.class" afterDir="false" />
+    <list default="true" id="210c6232-7a1b-4429-b4f0-c3cc18845922" name="Changes" comment=".">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/TrackingServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/src/main/java/com/meshakin/TrackingServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracking-service/target/generated-sources/annotations/com/meshakin/mapper/TimeTrackerMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/tracking-service/target/generated-sources/annotations/com/meshakin/mapper/TimeTrackerMapperImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -71,7 +43,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Lugonul/FirstPetProjectTimeTracker&quot;,
+    &quot;url&quot;: &quot;git@github.com:Lugonul/FirstPetProjectTimeTracker.git&quot;,
     &quot;accountId&quot;: &quot;0f091f03-51fe-4dc8-9c5f-731d500b64fa&quot;
   }
 }</component>
@@ -97,41 +69,58 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Docker.docker-compose.yml.postgres: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
-    "JUnit.TimeTrackerServiceTest.executor": "Run",
-    "Maven.common [install].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.FirstPetProjectTimeTrackerApplication.executor": "Run",
-    "Spring Boot.TrackingServiceApplication (1).executor": "Run",
-    "git-widget-placeholder": "#2 on transform-to-microservicies",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ADmin/IdeaProjects/FirstPetProjectTimeTracker",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.configurations.included.in.services": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Docker.docker-compose.yml.postgres: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TimeTrackerControllerUnitTest.PostTimeTrackerShouldReturnCreatedTimeTrackerDto.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TimeTrackerControllerUnitTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TimeTrackerControllerUnitTest.post.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TimeTrackerControllerUnitTest.readByIdShouldReturnEmptyTimeTrackerDto.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TimeTrackerControllerUnitTest.readByIdShouldReturnTimeTrackerDto.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TimeTrackerDtoValidationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TimeTrackerDtoValidationTest.whenEndTimeBeforeStartTime_validationFails.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TimeTrackerDtoValidationTest.whenStartTimeBeforeEndTimeReturnFalse.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TimeTrackerServiceIntegrationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TimeTrackerServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TimeTrackerServiceUnitTest.createTimeTrackerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TimeTrackerServiceUnitTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TimeTrackerServiceUnitTest.readAllTimeTrackerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TimeTrackerServiceUnitTest.readTimeTrackerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TimeTrackerServiceUnitTest.readTimeTrackerTestShouldReturnNullWhenNotFound.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TrackingServiceApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.common [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.tracking-service [test].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.FirstPetProjectTimeTrackerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.TrackingServiceApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.TrackingServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;fix-dto-without-id-subentities&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ADmin/IdeaProjects/FirstPetProjectTimeTracker&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -142,8 +131,39 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TimeTrackerServiceTest">
-    <configuration name="TimeTrackerServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.TrackingServiceApplication">
+    <configuration name="TimeTrackerControllerUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tracking-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.meshakin.unit.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.meshakin.unit.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.meshakin.unit.controller.TimeTrackerControllerUnitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeTrackerControllerUnitTest.post" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tracking-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.meshakin.unit.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.meshakin.unit.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.meshakin.unit.controller.TimeTrackerControllerUnitTest" />
+      <option name="METHOD_NAME" value="post" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeTrackerServiceIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tracking-service" />
       <extension name="coverage">
         <pattern>
@@ -152,7 +172,22 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.meshakin.integration.service" />
-      <option name="MAIN_CLASS_NAME" value="com.meshakin.integration.service.TimeTrackerServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="com.meshakin.integration.service.TimeTrackerServiceIntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrackingServiceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tracking-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.meshakin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.meshakin" />
+      <option name="MAIN_CLASS_NAME" value="com.meshakin.TrackingServiceApplicationTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,7 +207,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrackingServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="TrackingServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="tracking-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.meshakin.TrackingServiceApplication" />
       <extension name="coverage">
@@ -191,33 +226,13 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="sourceFilePath" value="docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="docker-compose.yml.postgres: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="services">
-            <list>
-              <option value="postgres" />
-            </list>
-          </option>
-          <option name="sourceFilePath" value="docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.TrackingServiceApplication (1)" />
-        <item itemvalue="JUnit.TimeTrackerServiceTest" />
-        <item itemvalue="Docker.docker-compose.yml.postgres: Compose Deployment" />
-        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Spring Boot.TrackingServiceApplication" />
+        <item itemvalue="JUnit.TimeTrackerServiceIntegrationTest" />
+        <item itemvalue="JUnit.TrackingServiceApplicationTests" />
+        <item itemvalue="JUnit.TimeTrackerControllerUnitTest" />
+        <item itemvalue="JUnit.TimeTrackerControllerUnitTest.post" />
       </list>
     </recent_temporary>
   </component>
@@ -275,6 +290,12 @@
       <workItem from="1758908648340" duration="36000" />
       <workItem from="1758908711720" duration="201000" />
       <workItem from="1758908939625" duration="4799000" />
+      <workItem from="1758922600432" duration="106000" />
+      <workItem from="1758922715822" duration="16142000" />
+      <workItem from="1759068890000" duration="4209000" />
+      <workItem from="1759210951343" duration="3000" />
+      <workItem from="1759243629667" duration="26051000" />
+      <workItem from="1759426219224" duration="710000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <option name="closed" value="true" />
@@ -348,7 +369,31 @@
       <option name="project" value="LOCAL" />
       <updated>1758920481738</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="change database, dto, mapping, service">
+      <option name="closed" value="true" />
+      <created>1759023623465</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1759023623465</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add tests">
+      <option name="closed" value="true" />
+      <created>1759425901494</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1759425901494</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add tests">
+      <option name="closed" value="true" />
+      <created>1759425916646</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1759425916646</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,6 +430,8 @@
     <MESSAGE value="change and normalize the database" />
     <MESSAGE value="fix: transport .gitignore, .gitattributes, maven-wrappers from modules to root" />
     <MESSAGE value="solved conflicts" />
-    <option name="LAST_COMMIT_MESSAGE" value="solved conflicts" />
+    <MESSAGE value="change database, dto, mapping, service" />
+    <MESSAGE value="add tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="add tests" />
   </component>
 </project>

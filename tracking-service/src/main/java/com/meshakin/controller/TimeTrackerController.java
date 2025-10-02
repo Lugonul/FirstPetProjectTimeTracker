@@ -23,14 +23,9 @@ public class TimeTrackerController {
     private final TimeTrackerService timeTrackerService;
 
     @PostMapping
-    public ResponseEntity<TimeTrackerDto> post(@RequestBody @Valid TimeTrackerDto timeTrackerDto) {
-        TimeTrackerDto createdDto = timeTrackerService.create(timeTrackerDto);
-        URI location = ServletUriComponentsBuilder.fromCurrentRequest()
-                .path("/{id}")
-                .buildAndExpand(createdDto.id())
-                .toUri();
+    public TimeTrackerDto post(@RequestBody @Valid TimeTrackerDto timeTrackerDto) {
 
-        return ResponseEntity.created(location).body(createdDto);
+        return timeTrackerService.create(timeTrackerDto);
     }
 
     @GetMapping("/{id}")

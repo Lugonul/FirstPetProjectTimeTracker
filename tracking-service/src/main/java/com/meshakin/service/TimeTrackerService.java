@@ -6,6 +6,7 @@ import com.meshakin.mapper.TimeTrackerMapper;
 import com.meshakin.repository.TimeTrackerRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,12 +17,14 @@ public class TimeTrackerService {
     private final TimeTrackerRepository timeTrackerRepository;
     private final TimeTrackerMapper timeTrackerMapper;
 
+    @Transactional
     public TimeTrackerDto readById (Long id) {
         TimeTrackerEntity timeTrackerEntity = timeTrackerRepository.findById(id).orElse(null);
         if (timeTrackerEntity == null) {return null;}
         return timeTrackerMapper.toDto(timeTrackerEntity);
     }
 
+    @Transactional
     public List<TimeTrackerDto> readAll() {
         List<TimeTrackerEntity> timeTrackerEntityList = timeTrackerRepository.findAll();
         List<TimeTrackerDto> timeTrackerDtoList = new ArrayList<>();
@@ -31,6 +34,7 @@ public class TimeTrackerService {
         return timeTrackerDtoList;
     }
 
+    @Transactional
     public TimeTrackerDto create(TimeTrackerDto timeTrackerDto) {
         TimeTrackerEntity timeTrackerEntity = timeTrackerMapper.toEntity(timeTrackerDto);
         TimeTrackerEntity savedEntity = timeTrackerRepository.save(timeTrackerEntity);
