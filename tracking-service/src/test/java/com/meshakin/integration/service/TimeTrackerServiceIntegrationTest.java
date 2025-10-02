@@ -15,7 +15,7 @@ import java.time.LocalDateTime;
 import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringBootTest
-public class TimeTrackerServiceTest extends TestContainersBase {
+public class TimeTrackerServiceIntegrationTest extends TestContainersBase {
     @Autowired
     private TimeTrackerService timeTrackerService;
 
@@ -25,7 +25,7 @@ public class TimeTrackerServiceTest extends TestContainersBase {
             ApplicationType.BROWSER,
             Device.MOBILE,
             LocalDateTime.of(2025, 8 , 20 ,20 , 0),
-            LocalDateTime.now()
+            LocalDateTime.of(2025, 9 , 20 ,20 , 0)
     );
 
 
