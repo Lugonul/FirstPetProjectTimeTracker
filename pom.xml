@@ -29,6 +29,7 @@
         <org.mapstruct.version>1.5.5.Final</org.mapstruct.version>
         <lombok.version>1.18.30</lombok.version>
         <testcontainers.version>1.21.3</testcontainers.version>
+        <springdoc.version>2.8.13</springdoc.version>
     </properties>
 
     <dependencyManagement>
